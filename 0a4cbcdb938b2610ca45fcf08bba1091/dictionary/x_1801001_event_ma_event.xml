@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="ba20815393cb2610ca45fcf08bba103b" extends="task" label="Event" max_length="40" name="x_1801001_event_ma_event" type="collection">
+        <element label="Is VIP" max_length="40" name="x_is_vip" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="x_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Event Date" mandatory="true" max_length="40" name="x_event_date" type="glide_date_time"/>
         <element attributes="encode_utf8=false" label="Assigned Planner" max_length="32" name="x_assigned_planner" reference="sys_user" type="reference"/>
@@ -11,6 +12,7 @@
                 <element inactive_on_update="false" label="Scheduled" sequence="2" value="scheduled"/>
                 <element inactive_on_update="false" label="Cancelled" sequence="4" value="cancelled"/>
                 <element inactive_on_update="false" label="Planned" sequence="1" value="planned"/>
+                <element inactive_on_update="false" label="Confirmed" sequence="5" value="confirmed"/>
                 <element inactive_on_update="false" label="New" sequence="0" value="new"/>
             </choice>
         </element>

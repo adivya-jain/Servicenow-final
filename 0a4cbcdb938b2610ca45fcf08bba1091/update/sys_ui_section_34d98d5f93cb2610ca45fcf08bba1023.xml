@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-04 07:49:14</sys_created_on>
-            <sys_id>c3ab4513930f2610ca45fcf08bba1024</sys_id>
+            <sys_created_on>2025-08-05 22:57:53</sys_created_on>
+            <sys_id>5335e5bb9307e610ca45fcf08bba10f4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Task Details" display_value="Task Details" name="x_1801001_event_ma_task" sys_domain="global" view="Default view">34d98d5f93cb2610ca45fcf08bba1023</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-04 07:49:14</sys_updated_on>
+            <sys_updated_on>2025-08-05 22:57:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>priority</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-04 07:49:14</sys_created_on>
-            <sys_id>4bab4513930f2610ca45fcf08bba1024</sys_id>
+            <sys_created_on>2025-08-05 22:57:53</sys_created_on>
+            <sys_id>5f35e5bb9307e610ca45fcf08bba10f4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Task Details" display_value="Task Details" name="x_1801001_event_ma_task" sys_domain="global" view="Default view">34d98d5f93cb2610ca45fcf08bba1023</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-04 07:49:14</sys_updated_on>
+            <sys_updated_on>2025-08-05 22:57:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>state</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-04 07:49:14</sys_created_on>
-            <sys_id>cfab4513930f2610ca45fcf08bba1024</sys_id>
+            <sys_created_on>2025-08-05 22:57:53</sys_created_on>
+            <sys_id>5735e5bb9307e610ca45fcf08bba10f5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Task Details" display_value="Task Details" name="x_1801001_event_ma_task" sys_domain="global" view="Default view">34d98d5f93cb2610ca45fcf08bba1023</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-04 07:49:14</sys_updated_on>
+            <sys_updated_on>2025-08-05 22:57:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>x_event_id</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-04 07:49:14</sys_created_on>
-            <sys_id>47ab4513930f2610ca45fcf08bba1025</sys_id>
+            <sys_created_on>2025-08-05 22:57:53</sys_created_on>
+            <sys_id>5f35e5bb9307e610ca45fcf08bba10f5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Task Details" display_value="Task Details" name="x_1801001_event_ma_task" sys_domain="global" view="Default view">34d98d5f93cb2610ca45fcf08bba1023</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-04 07:49:14</sys_updated_on>
+            <sys_updated_on>2025-08-05 22:57:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>x_task_name</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-04 07:49:14</sys_created_on>
-            <sys_id>cbab4513930f2610ca45fcf08bba1025</sys_id>
+            <sys_created_on>2025-08-05 22:57:53</sys_created_on>
+            <sys_id>5735e5bb9307e610ca45fcf08bba10f6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Task Details" display_value="Task Details" name="x_1801001_event_ma_task" sys_domain="global" view="Default view">34d98d5f93cb2610ca45fcf08bba1023</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-04 07:49:14</sys_updated_on>
+            <sys_updated_on>2025-08-05 22:57:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>assigned_to</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-04 07:49:14</sys_created_on>
-            <sys_id>43ab4513930f2610ca45fcf08bba1026</sys_id>
+            <sys_created_on>2025-08-05 22:57:53</sys_created_on>
+            <sys_id>5f35e5bb9307e610ca45fcf08bba10f6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Task Details" display_value="Task Details" name="x_1801001_event_ma_task" sys_domain="global" view="Default view">34d98d5f93cb2610ca45fcf08bba1023</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-04 07:49:14</sys_updated_on>
+            <sys_updated_on>2025-08-05 22:57:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>x_due_date</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-04 07:49:14</sys_created_on>
-            <sys_id>c7ab4513930f2610ca45fcf08bba1026</sys_id>
+            <sys_created_on>2025-08-05 22:57:53</sys_created_on>
+            <sys_id>5735e5bb9307e610ca45fcf08bba10f7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Task Details" display_value="Task Details" name="x_1801001_event_ma_task" sys_domain="global" view="Default view">34d98d5f93cb2610ca45fcf08bba1023</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-04 07:49:14</sys_updated_on>
+            <sys_updated_on>2025-08-05 22:57:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,27 +102,41 @@
             <element>x_status</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-04 07:49:14</sys_created_on>
-            <sys_id>4fab4513930f2610ca45fcf08bba1026</sys_id>
+            <sys_created_on>2025-08-05 22:57:53</sys_created_on>
+            <sys_id>5f35e5bb9307e610ca45fcf08bba10f7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Task Details" display_value="Task Details" name="x_1801001_event_ma_task" sys_domain="global" view="Default view">34d98d5f93cb2610ca45fcf08bba1023</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-04 07:49:14</sys_updated_on>
+            <sys_updated_on>2025-08-05 22:57:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_is_complete</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-05 22:57:53</sys_created_on>
+            <sys_id>5735e5bb9307e610ca45fcf08bba10f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Task Details" display_value="Task Details" name="x_1801001_event_ma_task" sys_domain="global" view="Default view">34d98d5f93cb2610ca45fcf08bba1023</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-05 22:57:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>active</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-08-04 07:49:14</sys_created_on>
-            <sys_id>c3ab4513930f2610ca45fcf08bba1027</sys_id>
+            <sys_created_on>2025-08-05 22:57:53</sys_created_on>
+            <sys_id>5f35e5bb9307e610ca45fcf08bba10f8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Task Details" display_value="Task Details" name="x_1801001_event_ma_task" sys_domain="global" view="Default view">34d98d5f93cb2610ca45fcf08bba1023</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-08-04 07:49:14</sys_updated_on>
+            <sys_updated_on>2025-08-05 22:57:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
