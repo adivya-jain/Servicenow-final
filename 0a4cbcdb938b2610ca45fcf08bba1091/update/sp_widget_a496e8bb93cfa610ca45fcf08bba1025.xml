@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function($scope) {
+  var c = this;
+  
+  c.data = {
+    event_date: '',
+    status: 'new',
+    event_name: '',
+    location: '',
+    contact_person: '',
+    contact_number: '',
+    email: '',
+    success: '',
+    error: ''
+  };
+
+  c.clearForm = function() {
+    c.data.event_date = '';
+    c.data.status = 'new';
+    c.data.event_name = '';
+    c.data.location = '';
+    c.data.contact_person = '';
+    c.data.contact_number = '';
+    c.data.email = '';
+  };
+
+  c.createEvent = function() {
+    if (!c.data.event_date || !c.data.event_name || !c.data.location || !c.data.contact_number) {
+      c.data.error = "Please fill all required fields.";
+      c.data.success = '';
+      return;
+    }
+
+    c.server.get({
+      action: "createEvent",
+      event_date: c.data.event_date,
+      status: c.data.status,
+      event_name: c.data.event_name,
+      location: c.data.location,
+      contact_person: c.data.contact_person,
+      contact_number: c.data.contact_number,
+      email: c.data.email
+    }).then(function(response) {
+      if (response.data.success) {
+        c.data.success = "Event created successfully with ID: " + response.data.sys_id;
+        c.data.error = '';
+        c.clearForm(); 
+      } else {
+        c.data.error = "Error creating event.";
+        c.data.success = '';
+      }
+    });
+  };
+};
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>emp_create_event</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>EMP Create Event</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  if (input && input.action === "createEvent") {
+
+    var gr = new GlideRecord('x_1801001_event_ma_event');
+    gr.initialize();
+    gr.setValue('x_event_date', input.event_date);
+    gr.setValue('x_status', input.status);
+    gr.setValue('x_event_name', input.event_name);
+    gr.setValue('x_location', input.location);
+
+    gr.setValue('x_contact_person', input.contact_person);
+    gr.setValue('x_contact_number', input.contact_number);
+    gr.setValue('x_email', input.email);
+
+    var success = gr.insert();
+		
+    if (success) {
+      data.success = true;
+      data.sys_id = gr.getUniqueValue();
+			gs.addInfoMessage('Event Added Succesfully');
+    } else {
+      data.success = false;
+    }
+  }
+})();
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 18:25:04</sys_created_on>
+        <sys_id>a496e8bb93cfa610ca45fcf08bba1025</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EMP Create Event</sys_name>
+        <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
+        <sys_update_name>sp_widget_a496e8bb93cfa610ca45fcf08bba1025</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 18:25:04</sys_updated_on>
+        <template><![CDATA[<div class="container" style="margin: 20px 0px">
+  <h3 class="mb-4">Create New Event</h3>
+
+  <div class="card p-4 mb-4">
+    <div class="form-group">
+      <label for="eventDate">Event Date <span class="text-danger">*</span></label>
+      <input type="date" class="form-control" ng-model="c.data.event_date" id="eventDate" required />
+    </div>
+
+    <div class="form-group">
+      <label for="status">Status <span class="text-danger">*</span></label>
+      <select class="form-control" ng-model="c.data.status" id="status" required>
+        <option value="new">New</option>
+        <option value="planned">Planned</option>
+        <option value="scheduled">Scheduled</option>
+        <option value="confirmed">Confirmed</option>
+        <option value="completed">Completed</option>
+        <option value="cancelled">Cancelled</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="eventName">Event Name <span class="text-danger">*</span></label>
+      <input type="text" class="form-control" ng-model="c.data.event_name" id="eventName" required />
+    </div>
+
+    <div class="form-group">
+      <label for="location">Location <span class="text-danger">*</span></label>
+      <input type="text" class="form-control" ng-model="c.data.location" id="location" required />
+    </div>
+  </div>
+
+  <div class="card p-4 mb-4">
+    <h5>Contact Information</h5>
+
+    <div class="form-group">
+      <label for="contactPerson">Contact Person</label>
+      <input type="text" class="form-control" ng-model="c.data.contact_person" id="contactPerson" />
+    </div>
+
+    <div class="form-group">
+      <label for="contactNumber">Contact Number <span class="text-danger">*</span></label>
+      <input type="text" class="form-control" ng-model="c.data.contact_number" id="contactNumber" required />
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" class="form-control" ng-model="c.data.email" id="email" />
+    </div>
+  </div>
+
+  <button class="btn btn-primary" ng-click="c.createEvent()">Submit</button>
+
+</div>
+]]></template>
+    </sp_widget>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Create an Event">49b18b9f93076610ca45fcf08bba108d</sc_cat_item>
+        <sc_catalog display_value="Event Management">176631e79383a610ca45fcf08bba109b</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 05:41:34</sys_created_on>
+        <sys_id>f608b52b9383a610ca45fcf08bba1003</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event Management.Create an Event</sys_name>
+        <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_f608b52b9383a610ca45fcf08bba1003</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 05:41:34</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Create an Event">49b18b9f93076610ca45fcf08bba108d</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-04 16:24:55</sys_created_on>
+        <sys_id>0db1cb1393476610ca45fcf08bba102f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Create an Event</sys_name>
+        <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_0db1cb1393476610ca45fcf08bba102f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-04 16:24:55</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</application>
+        <file_path/>
+        <instance_id>6aa51375473f52106f9ce676706d43f6</instance_id>
+        <instance_name>dev296441</instance_name>
+        <name>sc_cat_item_catalog_0db1cb1393476610ca45fcf08bba102f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Create an Event">49b18b9f93076610ca45fcf08bba108d</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-04 16:24:55</sys_created_on><sys_id>0db1cb1393476610ca45fcf08bba102f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Create an Event</sys_name><sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package><sys_policy/><sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope><sys_update_name>sc_cat_item_catalog_0db1cb1393476610ca45fcf08bba102f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-04 16:24:55</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-1069433137</payload_hash>
+        <record_name>Service Catalog.Create an Event</record_name>
+        <reverted_from/>
+        <source>785ef05f938b2610ca45fcf08bba10c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-04 16:24:55</sys_created_on>
+        <sys_id>49b1cb1393476610ca45fcf08bba1033</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19875e6789d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-04 16:24:55</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>0db1cb1322476610aaacf973bd85d732</update_guid>
+        <update_guid_history>0db1cb1322476610aaacf973bd85d732:-1069433137</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Create an Event">b208356b9383a610ca45fcf08bba103d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 05:41:35</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>019958c40039445c812f8245c5284790</sys_id>
+        <sys_metadata>0db1cb1393476610ca45fcf08bba102f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Create an Event</sys_name>
+        <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
+        <sys_parent display_value="Create an Event">49b18b9f93076610ca45fcf08bba108d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
+        <sys_scope_delete display_value="">5eed0badb25148eda7f538be0ba867d1</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_0db1cb1393476610ca45fcf08bba102f</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_0db1cb1393476610ca45fcf08bba102f">49b1cb1393476610ca45fcf08bba1033</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 05:41:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

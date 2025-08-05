@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1801001_event_ma.TaskUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>TaskUtils</name>
+        <script><![CDATA[var TaskUtils = Class.create();
+TaskUtils.prototype = {
+    initialize: function() {
+		this.eventTask = new GlideRecord('x_1801001_event_ma_task');
+    },
+
+	fetchAllTasksForEvent : function(eventId){
+		this.eventTask.addQuery('x_event_id', eventId);
+		this.eventTask.query();
+		if(this.eventTask.hasNext()){
+			return this.eventTask;
+		}
+		else{
+			return null;
+		}
+	},
+
+	checkIfOverdue : function(taskId){
+		if(this.eventTask.get(taskId)){
+			var currentDate = new GlideDateTime();
+			if(currentDate > this.eventTask.getValue('x_due_date')){
+				return true;
+			}
+			else{
+				return false;
+			}
+		}
+	},
+
+	fetchAllTaskDetails : function(taskId){
+		if(this.eventTask.get(taskId)){
+			var results = {
+				task_num : this.eventTask.getValue('number'),
+				task_event_id : this.eventTask.getValue('x_event_id'),
+				task_name : this.eventTask.getValue('x_task_name'),
+				task_assigned_to : this.eventTask.getDisplayValue('assigned_to'),
+				task_due_date : this.eventTask.getValue('x_due_date'),
+				task_status : this.eventTask.getValue('x_status'),
+			};
+			return results;
+		}
+		
+	},
+
+	fetchTaskByDueDate : function(dateStr){
+		this.eventTask.addQuery('x_due_date',dateStr);
+		this.eventTask.query();
+		var tasks = [];
+		while(this.eventTask.next()){
+			tasks.push({
+				task_id : this.eventTask.getUniqueValue(),
+				task_event : this.eventTask.getValue('x_event_id'),
+				task_assigned_to : this.eventTask.getDisplayValue('assigned_to'),
+				task_stat : this.eventTask.getDisplayValue('x_status')
+			});
+		}
+	},
+
+    type: 'TaskUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 20:37:03</sys_created_on>
+        <sys_id>eed489ff9343e610ca45fcf08bba106f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TaskUtils</sys_name>
+        <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
+        <sys_update_name>sys_script_include_eed489ff9343e610ca45fcf08bba106f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 20:37:03</sys_updated_on>
+    </sys_script_include>
+</record_update>

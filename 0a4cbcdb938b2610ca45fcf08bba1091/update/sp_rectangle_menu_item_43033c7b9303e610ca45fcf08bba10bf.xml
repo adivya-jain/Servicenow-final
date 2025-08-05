@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item">
+    <sp_rectangle_menu_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <color>default</color>
+        <condition>gs.hasRole('x_1790214_event_ma.event_coordinator') || gs.hasRole('x_1790214_event_ma.event_admin')  || gs.hasRole('x_1790214_event_ma.event_manager')</condition>
+        <display_1/>
+        <display_2/>
+        <display_date/>
+        <filter/>
+        <glyph>paper-plane</glyph>
+        <hint/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <label>Venue</label>
+        <order>700</order>
+        <record_script/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <sp_page display_value="emp_venue_bookings">585f24b79303e610ca45fcf08bba107b</sp_page>
+        <sp_rectangle_menu display_value="EMP Main Menu">d9efa0f79303e610ca45fcf08bba108a</sp_rectangle_menu>
+        <sp_rectangle_menu_item/>
+        <sys_class_name>sp_rectangle_menu_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 19:19:25</sys_created_on>
+        <sys_id>43033c7b9303e610ca45fcf08bba10bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Venue</sys_name>
+        <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
+        <sys_update_name>sp_rectangle_menu_item_43033c7b9303e610ca45fcf08bba10bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 19:19:25</sys_updated_on>
+        <table/>
+        <type>page</type>
+        <url/>
+        <url_target/>
+    </sp_rectangle_menu_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=43033c7b9303e610ca45fcf08bba10bf"/>
+</record_update>

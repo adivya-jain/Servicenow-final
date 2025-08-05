@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>x_contact_number</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 19:37:32</sys_created_on>
+        <sys_id>ef4770339343e610ca45fcf08bba106c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_contact_number</sys_name>
+        <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
+        <sys_update_name>sys_ui_policy_action_ef4770339343e610ca45fcf08bba106c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 19:37:32</sys_updated_on>
+        <table>x_1801001_event_ma_event</table>
+        <ui_policy display_value="a UI policy to make the contact_number field mandatory when contact_person is filled in the Event Record form.">23f6f8ff9303e610ca45fcf08bba1050</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=ef4770339343e610ca45fcf08bba106c"/>
+</record_update>

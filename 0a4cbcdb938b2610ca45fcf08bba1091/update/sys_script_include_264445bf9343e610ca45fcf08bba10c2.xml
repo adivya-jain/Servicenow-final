@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1801001_event_ma.AttendeeUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>AttendeeUtils</name>
+        <script><![CDATA[var AttendeeUtils = Class.create();
+AttendeeUtils.prototype = {
+    initialize: function() {
+		this.attendees = new GlideRecord('x_1801001_event_ma_attendee');
+    },
+
+	checkAttendeeIfRegistered : function(attId){
+		if(this.attendees.get(attId)){
+			return true;
+		}
+		else{
+			return false;
+		}
+	},
+
+	fetchAttendeeById : function(attId){
+		if (this.attendees.get(attId)){
+			var attendee_details = {
+				att_num : this.attendees.getValue('number'),
+				att_event_id : this.attendees.getValue('x_event_id'),
+				att_first_name : this.attendees.getValue('x_first_name'),
+				att_last_name : this.attendees.getValue('x_last_name'),
+				att_email : this.attendees.getValue('x_email'),
+				att_contact_number : this.attendees.getValue('x_contact_number')
+			};	
+
+			return attendee_details;
+		}
+		else{
+			return null;
+		}
+	},
+
+	fetchAttendeesByEventId :function(eventId){
+		this.attendees.addQuery('x_event_id', eventId);
+		this.attendees.query();
+		return this.attendees;
+	},
+	
+
+
+    type: 'AttendeeUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 20:34:30</sys_created_on>
+        <sys_id>264445bf9343e610ca45fcf08bba10c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AttendeeUtils</sys_name>
+        <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
+        <sys_update_name>sys_script_include_264445bf9343e610ca45fcf08bba10c2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 20:34:30</sys_updated_on>
+    </sys_script_include>
+</record_update>

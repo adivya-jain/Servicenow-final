@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-04 17:34:37</sys_created_on>
+        <sys_id>4ea1531793876610ca45fcf08bba10b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1801001_event_ma_task.*.snc_internal</sys_name>
+        <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
+        <sys_security_acl display_value="x_1801001_event_ma_task.*">edbd47df93476610ca45fcf08bba10b8</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_4ea1531793876610ca45fcf08bba10b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-04 17:34:37</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</application>
+        <file_path/>
+        <instance_id>6aa51375473f52106f9ce676706d43f6</instance_id>
+        <instance_name>dev296441</instance_name>
+        <name>sys_security_acl_role_4ea1531793876610ca45fcf08bba10b6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-04 17:34:37</sys_created_on><sys_id>4ea1531793876610ca45fcf08bba10b6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1801001_event_ma_task.*.snc_internal</sys_name><sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package><sys_policy/><sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope><sys_security_acl display_value="x_1801001_event_ma_task.*">edbd47df93476610ca45fcf08bba10b8</sys_security_acl><sys_update_name>sys_security_acl_role_4ea1531793876610ca45fcf08bba10b6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-04 17:34:37</sys_updated_on><sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1065753999</payload_hash>
+        <record_name>x_1801001_event_ma_task.*.snc_internal</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-04 17:35:52</sys_created_on>
+        <sys_id>e4f11b1793876610ca45fcf08bba1022</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198762770720000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-04 17:35:52</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>a4f11b17ef87661031173ddcf78a0922</update_guid>
+        <update_guid_history>a4f11b17ef87661031173ddcf78a0922:1065753999</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1801001_event_ma_task.*.snc_internal">a0f11b1793876610ca45fcf08bba1023</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-04 17:35:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>01eda386689a4b24ab02628826efa8f1</sys_id>
+        <sys_metadata>4ea1531793876610ca45fcf08bba10b6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1801001_event_ma_task.*.snc_internal</sys_name>
+        <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
+        <sys_parent display_value="x_1801001_event_ma_task.*">edbd47df93476610ca45fcf08bba10b8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
+        <sys_scope_delete display_value="">5eed0badb25148eda7f538be0ba867d1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_4ea1531793876610ca45fcf08bba10b6</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_4ea1531793876610ca45fcf08bba10b6">e4f11b1793876610ca45fcf08bba1022</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-04 17:35:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

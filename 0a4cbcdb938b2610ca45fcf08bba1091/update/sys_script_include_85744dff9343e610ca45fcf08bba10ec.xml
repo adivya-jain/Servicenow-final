@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1801001_event_ma.FeedbackUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>FeedbackUtils</name>
+        <script><![CDATA[var FeedbackUtils = Class.create();
+FeedbackUtils.prototype = {
+    initialize: function() {
+		this.feedback = new GlideRecord('x_1801001_event_ma_feedback');
+    },
+	fetchFeedbackDetailsById : function(fId){
+		if(this.feedback.get(fId)){
+			var results = {
+				f_number : this.feedback.getValue('number'),
+				f_event_id : this.feedback.getValue('x_event_id'),
+				f_att_id : this.feedback.getValue('x_attendee_id'),
+				f_rating : this.feedback.getValue('x_rating'),
+				f_comments : this.feedback.getValue('x_comments')
+				
+			}
+
+			return results;
+		}
+		else{
+			return null;
+		}
+	},
+
+	checkIfPositiveFeeback : function(fId){
+		if(this.feedback.get(fId)){
+			if(this.feedback.getValue('x_rating') == 'excellent' || this.feedback.getValue('x_rating') == 'good'){
+				return true;
+			}
+			else{
+				return false;
+			}
+		}
+	},
+
+	getFeedbackByEvent: function(eventId) {
+        var feedbackList = [];
+        this.feedback.addQuery('x_event_id', eventId);
+        fbGR.query();
+        while (this.feedback.next()) {
+            feedbackList.push({
+                f_sys_id: this.feedback.getUniqueValue(),
+                f_rating: this.feedback.getValue('x_rating'),
+                f_comments: this.feedback.getValue('x_comments'),
+            });
+        }
+        return feedbackList;
+    },
+
+
+    type: 'FeedbackUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 20:35:19</sys_created_on>
+        <sys_id>85744dff9343e610ca45fcf08bba10ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FeedbackUtils</sys_name>
+        <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
+        <sys_update_name>sys_script_include_85744dff9343e610ca45fcf08bba10ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 20:35:19</sys_updated_on>
+    </sys_script_include>
+</record_update>

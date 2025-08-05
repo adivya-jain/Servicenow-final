@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri>/api/x_1801001_event_ma/event_api/create</default_operation_uri>
+        <enforce_acl/>
+        <http_method>POST</http_method>
+        <name>Create Event</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+	var requestBody = request.body.data;
+
+	if(!requestBody.x_event_date || !requestBody.x_event_name || !requestBody.x_location || !requestBody.x_contact_person || !requestBody.x_contact_number) {
+		response.setStatus(400);
+		return { error: 'Missing required fields' };
+	}
+
+	var _eventGR = new GlideRecord('x_1801001_event_ma_event');
+	_eventGR.initialize();
+	_eventGR.x_event_date = requestBody.x_event_date;
+	_eventGR.x_event_name = requestBody.x_event_name;
+	_eventGR.x_location = requestBody.x_location;
+	_eventGR.x_event_date = requestBody.x_event_date;
+	_eventGR.x_contact_number = requestBody.x_contact_number;
+	if(requestBody.x_email) _eventGR.u_email = requestBody.x_email;
+	if(requestBody.x_assigned_planner) _eventGR.x_assigned_planner = requestBody.x_assigned_planner;
+
+	var sysId = _eventGR.insert();
+
+	if(!sysId) {
+		response.setStatus(500);
+		return { error: 'Failed to create patient record' };
+	}
+
+	response.setStatus(201);
+    return {
+        message: 'Event record created successfully',
+        sys_id: sysId
+    };
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_1801001_event_ma/v1/event_api/create</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/create</relative_path>
+        <request_example/>
+        <requires_acl_authorization>false</requires_acl_authorization>
+        <requires_authentication>false</requires_authentication>
+        <requires_snc_internal_role>false</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 07:28:29</sys_created_on>
+        <sys_id>047e82679307a610ca45fcf08bba1061</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Create Event</sys_name>
+        <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
+        <sys_update_name>sys_ws_operation_047e82679307a610ca45fcf08bba1061</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 07:43:09</sys_updated_on>
+        <web_service_definition display_value="Event API">563e4e279307a610ca45fcf08bba10b2</web_service_definition>
+        <web_service_version display_value="v1">a16ece279307a610ca45fcf08bba1047</web_service_version>
+    </sys_ws_operation>
+</record_update>

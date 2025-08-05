@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>check</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item display_value=". Submit Feedback">f1d74873930fa610ca45fcf08bba1085</sc_cat_item>
+        <sc_category display_value="Events">9787392b9383a610ca45fcf08bba1049</sc_category>
+        <short_description>Provide feedback for a event</short_description>
+        <size>md</size>
+        <sp_column display_value="1">1355932b934ba610ca45fcf08bba10d8</sp_column>
+        <sp_page display_value="me_sc_cat_item">78ba038987032300e0ef0cf888cb0b6b</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-05 12:48:29</sys_created_on>
+        <sys_id>e8c99b6f934ba610ca45fcf08bba1000</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Feedback</sys_name>
+        <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
+        <sys_update_name>sp_instance_link_e8c99b6f934ba610ca45fcf08bba1000</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-05 18:27:59</sys_updated_on>
+        <title>Feedback</title>
+        <type>sc_cat_item</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Top Icon",
+		"displayValue": "Top Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=e8c99b6f934ba610ca45fcf08bba1000"/>
+</record_update>
