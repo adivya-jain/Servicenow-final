@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="eb75991f930f2610ca45fcf08bba1068" extends="task" label="Budget" max_length="40" name="x_1801001_event_ma_budget" type="collection">
-        <element attributes="omit_sys_original=true" label="Amount Spent" max_length="20" name="x_amount_spent" type="currency"/>
-        <element attributes="omit_sys_original=true" label="Amount Remaining" max_length="20" name="x_amount_remaining" type="currency"/>
+        <element attributes="encode_utf8=false" label="Event Id" max_length="32" name="x_event_id" reference="x_1801001_event_ma_event" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="x_status" type="string">
             <choice>
-                <element inactive_on_update="false" label="New" sequence="2" value="new"/>
-                <element inactive_on_update="false" label="Pending" sequence="1" value="pending"/>
-                <element inactive_on_update="false" label="Not-Approved" sequence="3" value="not-approved"/>
                 <element inactive_on_update="false" label="Approved" sequence="0" value="approved"/>
+                <element inactive_on_update="false" label="Pending" sequence="1" value="pending"/>
+                <element inactive_on_update="false" label="New" sequence="2" value="new"/>
+                <element inactive_on_update="false" label="Not-Approved" sequence="3" value="not-approved"/>
             </choice>
         </element>
+        <element attributes="omit_sys_original=true" label="Amount Spent" max_length="20" name="x_amount_spent" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Amount Remaining" max_length="20" name="x_amount_remaining" type="currency"/>
         <element attributes="omit_sys_original=true" label="Total Budget" max_length="20" name="x_total_budget" type="currency"/>
-        <element attributes="encode_utf8=false" label="Event Id" max_length="32" name="x_event_id" reference="x_1801001_event_ma_event" type="reference"/>
     </element>
 </database>

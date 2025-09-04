@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="9d531d5b930f2610ca45fcf08bba10aa" extends="task" label="Vendor " max_length="40" name="x_1801001_event_ma_vendor" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Vendor Name" max_length="40" name="x_vendor_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Contact Number" max_length="40" name="x_contact_number" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Services Provided" max_length="40" name="x_services_provided" type="string"/>
-        <element attributes="encode_utf8=false" label="Event Associated" max_length="32" name="x_event" reference="x_1801001_event_ma_event" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Contact Person" max_length="40" name="x_contact_person" type="string"/>
+        <element attributes="encode_utf8=false" label="Event Associated" max_length="32" name="x_event" reference="x_1801001_event_ma_event" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="x_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Services Provided" max_length="40" name="x_services_provided" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact Number" max_length="40" name="x_contact_number" type="string"/>
     </element>
 </database>

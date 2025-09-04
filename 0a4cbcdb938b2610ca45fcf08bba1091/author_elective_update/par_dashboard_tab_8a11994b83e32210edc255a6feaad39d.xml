@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_tab">
+    <par_dashboard_tab action="DELETE">
+        <active>true</active>
+        <background_color/>
+        <dashboard display_value="Asset Overview New">021191cf83a32210edc255a6feaad337</dashboard>
+        <name>New Tab 28</name>
+        <order>0</order>
+        <sys_class_name>par_dashboard_tab</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-28 10:05:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8a11994b83e32210edc255a6feaad39d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Tab 28</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
+        <sys_update_name>par_dashboard_tab_8a11994b83e32210edc255a6feaad39d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-28 10:05:49</sys_updated_on>
+    </par_dashboard_tab>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</application>
+        <file_path/>
+        <instance_id>bfbbcbaadbc1429802022a591396194b</instance_id>
+        <instance_name>dev249461</instance_name>
+        <name>par_dashboard_tab_8a11994b83e32210edc255a6feaad39d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_tab"><par_dashboard_tab action="INSERT_OR_UPDATE"><active>true</active><background_color/><dashboard display_value="Asset Overview New">021191cf83a32210edc255a6feaad337</dashboard><name>New Tab 28</name><order>0</order><sys_class_name>par_dashboard_tab</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-28 10:05:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8a11994b83e32210edc255a6feaad39d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New Tab 28</sys_name><sys_overrides/><sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package><sys_policy/><sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope><sys_update_name>par_dashboard_tab_8a11994b83e32210edc255a6feaad39d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-28 10:05:49</sys_updated_on></par_dashboard_tab></record_update>]]></payload>
+        <payload_hash>1457466993</payload_hash>
+        <record_name>New Tab 28</record_name>
+        <reverted_from/>
+        <source>e57861c183ab6610edc255a6feaad38a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-28 10:05:49</sys_created_on>
+        <sys_id>4211994b83e32210edc255a6feaad3a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198f02407290000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-28 10:05:49</sys_updated_on>
+        <type>PAR Dashboard Tab</type>
+        <update_guid>8611994bf5e32210c16c2d6a56c35d9f</update_guid>
+        <update_guid_history>8611994bf5e32210c16c2d6a56c35d9f:1457466993</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="New Tab 28">9a11994b83e32210edc255a6feaad3d6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-28 10:05:50</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_tab">par_dashboard_tab</sys_db_object>
+        <sys_id>33559cb1c1e54b0b95b5c27eb6248b81</sys_id>
+        <sys_metadata>8a11994b83e32210edc255a6feaad39d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Tab 28</sys_name>
+        <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
+        <sys_scope_delete display_value="">5eed0badb25148eda7f538be0ba867d1</sys_scope_delete>
+        <sys_update_name>par_dashboard_tab_8a11994b83e32210edc255a6feaad39d</sys_update_name>
+        <sys_update_version display_value="par_dashboard_tab_8a11994b83e32210edc255a6feaad39d">4211994b83e32210edc255a6feaad3a0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-28 10:05:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>true</client_callable>
         <description/>
+        <mobile_callable>false</mobile_callable>
         <name>RescheduleEventUtils</name>
+        <sandbox_callable>true</sandbox_callable>
         <script><![CDATA[var RescheduleEventUtils = Class.create();
 RescheduleEventUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 	reschedule: function()

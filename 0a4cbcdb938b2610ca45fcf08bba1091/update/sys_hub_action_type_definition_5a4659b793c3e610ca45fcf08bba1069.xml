@@ -20,6 +20,7 @@
         <label_cache>[{"name":"{{action.event_id}}","label":"action➛event_id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[9c7b6d4e-2a24-4b45-abf2-eba369996508].name}}","label":"step➛Script step➛name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"{{step[9c7b6d4e-2a24-4b45-abf2-eba369996508].vip}}","label":"step➛Script step➛vip","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"{{step[9c7b6d4e-2a24-4b45-abf2-eba369996508].date}}","label":"step➛Script step➛date","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"{{step[9c7b6d4e-2a24-4b45-abf2-eba369996508].status}}","label":"step➛Script step➛status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
+        <master_snapshot_digest/>
         <name>FetchEventDetails</name>
         <natlang/>
         <outputs/>
@@ -219,18 +220,6 @@ var utils = new EventUtils(inputs.event_id);&#13;
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=ced695f793c3e610ca45fcf08bba1040"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>ced695f793c3e610ca45fcf08bba1040</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-08-05 21:55:00</sys_created_on>
-        <sys_id>82d695f793c3e610ca45fcf08bba1071</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-05 21:55:00</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>event_id</field>
         <id>ced695f793c3e610ca45fcf08bba1040</id>
         <sys_created_by>admin</sys_created_by>
@@ -241,18 +230,6 @@ var utils = new EventUtils(inputs.event_id);&#13;
         <sys_updated_on>2025-08-05 21:55:00</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_ced695f793c3e610ca45fcf08bba1040</table>
         <value>{{action.event_id}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>ced695f793c3e610ca45fcf08bba1040</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-08-05 21:55:00</sys_created_on>
-        <sys_id>46d695f793c3e610ca45fcf08bba1071</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-05 21:55:00</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_ced695f793c3e610ca45fcf08bba1040^id=ced695f793c3e610ca45fcf08bba1040"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=ced695f793c3e610ca45fcf08bba1040"/>
@@ -675,7 +652,6 @@ var utils = new EventUtils(inputs.event_id);&#13;
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=ced695f793c3e610ca45fcf08bba1040"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_ced695f793c3e610ca45fcf08bba1040^sys_idNOT IN4ad695f793c3e610ca45fcf08bba106a,c6d695f793c3e610ca45fcf08bba104b,c6d695f793c3e610ca45fcf08bba1067,cad695f793c3e610ca45fcf08bba106d"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>vip</element>
         <help/>
@@ -689,11 +665,11 @@ var utils = new EventUtils(inputs.event_id);&#13;
         <sys_created_on>2025-08-05 21:55:00</sys_created_on>
         <sys_id>4ad695f793c3e610ca45fcf08bba106a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>vip</sys_name>
         <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
         <sys_policy/>
         <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_ced695f793c3e610ca45fcf08bba1040_vip_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-08-05 21:55:00</sys_updated_on>
         <url/>
@@ -712,11 +688,11 @@ var utils = new EventUtils(inputs.event_id);&#13;
         <sys_created_on>2025-08-05 21:55:00</sys_created_on>
         <sys_id>c6d695f793c3e610ca45fcf08bba104b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>name</sys_name>
         <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
         <sys_policy/>
         <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_ced695f793c3e610ca45fcf08bba1040_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-08-05 21:55:00</sys_updated_on>
         <url/>
@@ -735,11 +711,11 @@ var utils = new EventUtils(inputs.event_id);&#13;
         <sys_created_on>2025-08-05 21:55:00</sys_created_on>
         <sys_id>c6d695f793c3e610ca45fcf08bba1067</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>date</sys_name>
         <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
         <sys_policy/>
         <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_ced695f793c3e610ca45fcf08bba1040_date_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-08-05 21:55:00</sys_updated_on>
         <url/>
@@ -758,11 +734,11 @@ var utils = new EventUtils(inputs.event_id);&#13;
         <sys_created_on>2025-08-05 21:55:00</sys_created_on>
         <sys_id>cad695f793c3e610ca45fcf08bba106d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>status</sys_name>
         <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
         <sys_policy/>
         <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_ced695f793c3e610ca45fcf08bba1040_status_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-08-05 21:55:00</sys_updated_on>
         <url/>
@@ -1388,7 +1364,6 @@ var utils = new EventUtils(inputs.event_id);&#13;
         <sys_updated_on>2025-08-05 21:55:01</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=9ad695f793c3e610ca45fcf08bba1093"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_5a4659b793c3e610ca45fcf08bba1069^sys_idNOT IN02d699b793c3e610ca45fcf08bba10af"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>event_id</element>
         <help/>
@@ -1402,18 +1377,17 @@ var utils = new EventUtils(inputs.event_id);&#13;
         <sys_created_on>2025-08-05 21:55:00</sys_created_on>
         <sys_id>02d699b793c3e610ca45fcf08bba10af</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>event_id</sys_name>
         <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
         <sys_policy/>
         <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_5a4659b793c3e610ca45fcf08bba1069_event_id_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-08-05 21:55:00</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_5a4659b793c3e610ca45fcf08bba1069"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_5a4659b793c3e610ca45fcf08bba1069^sys_idNOT IN16d695f793c3e610ca45fcf08bba1082,4ed695f793c3e610ca45fcf08bba1078,52d695f793c3e610ca45fcf08bba1086,9ad695f793c3e610ca45fcf08bba107c,9ed695f793c3e610ca45fcf08bba1089,dad695f793c3e610ca45fcf08bba108d"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__dont_treat_as_error__</element>
         <help/>
@@ -1427,11 +1401,11 @@ var utils = new EventUtils(inputs.event_id);&#13;
         <sys_created_on>2025-08-05 21:55:01</sys_created_on>
         <sys_id>16d695f793c3e610ca45fcf08bba1082</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
         <sys_policy/>
         <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_5a4659b793c3e610ca45fcf08bba1069___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-08-05 21:55:01</sys_updated_on>
         <url/>
@@ -1450,11 +1424,11 @@ var utils = new EventUtils(inputs.event_id);&#13;
         <sys_created_on>2025-08-05 21:55:01</sys_created_on>
         <sys_id>4ed695f793c3e610ca45fcf08bba1078</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
         <sys_policy/>
         <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_5a4659b793c3e610ca45fcf08bba1069___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-08-05 21:55:01</sys_updated_on>
         <url/>
@@ -1473,11 +1447,11 @@ var utils = new EventUtils(inputs.event_id);&#13;
         <sys_created_on>2025-08-05 21:55:01</sys_created_on>
         <sys_id>52d695f793c3e610ca45fcf08bba1086</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>date</sys_name>
         <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
         <sys_policy/>
         <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_5a4659b793c3e610ca45fcf08bba1069_date_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-08-05 21:55:01</sys_updated_on>
         <url/>
@@ -1496,11 +1470,11 @@ var utils = new EventUtils(inputs.event_id);&#13;
         <sys_created_on>2025-08-05 21:55:01</sys_created_on>
         <sys_id>9ad695f793c3e610ca45fcf08bba107c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>name</sys_name>
         <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
         <sys_policy/>
         <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_5a4659b793c3e610ca45fcf08bba1069_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-08-05 21:55:01</sys_updated_on>
         <url/>
@@ -1519,11 +1493,11 @@ var utils = new EventUtils(inputs.event_id);&#13;
         <sys_created_on>2025-08-05 21:55:01</sys_created_on>
         <sys_id>9ed695f793c3e610ca45fcf08bba1089</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>vip</sys_name>
         <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
         <sys_policy/>
         <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_5a4659b793c3e610ca45fcf08bba1069_vip_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-08-05 21:55:01</sys_updated_on>
         <url/>
@@ -1542,11 +1516,11 @@ var utils = new EventUtils(inputs.event_id);&#13;
         <sys_created_on>2025-08-05 21:55:01</sys_created_on>
         <sys_id>dad695f793c3e610ca45fcf08bba108d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>status</sys_name>
         <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
         <sys_policy/>
         <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_5a4659b793c3e610ca45fcf08bba1069_status_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-08-05 21:55:01</sys_updated_on>
         <url/>

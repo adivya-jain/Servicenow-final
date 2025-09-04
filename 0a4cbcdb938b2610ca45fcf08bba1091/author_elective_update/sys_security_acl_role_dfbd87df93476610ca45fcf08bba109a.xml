@@ -41,7 +41,7 @@
         <update_guid_history>efce8b13b0876610f1893e0b597eab17:1146029499</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value=".snc_internal">c2a11b9393876610ca45fcf08bba1057</sys_audit_delete>
+        <sys_audit_delete display_value="">c2a11b9393876610ca45fcf08bba1057</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-04 17:34:37</sys_created_on>

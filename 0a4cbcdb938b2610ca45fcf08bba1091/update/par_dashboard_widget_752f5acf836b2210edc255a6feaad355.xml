@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">112f1acf836b2210edc255a6feaad3b9</canvas>
+        <component display_value="Pivot Table">06f6aacbd1818110f877d87436272684</component>
+        <component_props>{"freezeHeader":true,"freezeFooter":false,"showPivotExpanded":true,"freezeFirstColumn":true,"showAlternateRowColors":true,"showAlternateColumnColors":false,"showRowDividers":true,"truncateFirstColumn":true,"wrapColumnHeader":false,"truncateColumnHeader":true,"showColumnDividers":true,"showRowAggregate":true,"showColumnAggregate":true,"showSubAggregate":false,"colorConfig":{"type":"default"},"enableDrilldown":true,"showZero":true,"newReporting":true,"additionalGroupByConfig":null,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Knowledge Feedback","sourceType":"table","tableOrViewName":"kb_feedback","filterQuery":"sys_created_onONLast 30 days@javascript:gs.beginningOfLast30Days()@javascript:gs.endOfLast30Days()^ratingISNOTEMPTY","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGVrYl9mZWVkYmFjazE3MDY0OTY2NDcyMDk=","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":true,"showFirstGroupAggregate":true,"showSecondGroupAggregate":true,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":true,"headerTitle":"Article ratings in last 30 days","headingLevel":2,"description":"","showBorder":true,"bareBorder":false,"dataCategory":"group","telemetry":null,"showDataPassthrough":false,"refreshRequest":"","showAdditionalGroupBySelector":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGVrYl9mZWVkYmFjazE3MDY0OTY2NDcyMDk=","id":"ZEdGaWJHVnJZbDltWldWa1ltRmphekUzTURZME9UWTJORGN5TURrPTE3MDY0OTY2NDc3NTE=","aggregateFunction":"AVG","numberFormat":{"customFormat":false},"axisId":"primary","aggregateField":"rating"}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGVrYl9mZWVkYmFjazE3MDY0OTY2NDcyMDk=","groupByField":"article.workflow_state","isRange":false,"isChoice":true,"isPaBucket":false}],"categoryIndex":0,"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"hideZeroValues":false,"disableRanges":true},{"groupBy":[{"dataSource":"dGFibGVrYl9mZWVkYmFjazE3MDY0OTY2NDcyMDk=","groupByField":"article.kb_knowledge_base","isRange":false,"isChoice":false,"isPaBucket":false}],"categoryIndex":1,"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"hideZeroValues":false,"disableRanges":true}],"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableClickAndStay":false,"enableCustomEmptyState":false,"componentId":"exf63cey","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"filterConfigurations":"@state.parFilters","contextMenuActions":[],"showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":"latest","showChangeFrom":"previous","period":"M","dateFormat":"default","noDebounce":""}</component_props>
+        <h>16</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-28 15:46:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>752f5acf836b2210edc255a6feaad355</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
+        <sys_update_name>par_dashboard_widget_752f5acf836b2210edc255a6feaad355</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-28 15:46:52</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <widget_props/>
+        <x>0</x>
+        <y>10</y>
+    </par_dashboard_widget>
+</record_update>

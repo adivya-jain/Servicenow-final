@@ -45,7 +45,7 @@
         <update_guid_history>79131037958fa610306a585c7ba7f0dc:-220207729,79131037958fa610306a585c7ba7f0dc:-220207729,79131037958fa610306a585c7ba7f0dc:-220207729,fd131037928fa610aeae49bbb6337dd9:545859305</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="New Tab 2">2713d437938fa610ca45fcf08bba1079</sys_audit_delete>
+        <sys_audit_delete display_value="">2713d437938fa610ca45fcf08bba1079</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-05 16:59:06</sys_created_on>

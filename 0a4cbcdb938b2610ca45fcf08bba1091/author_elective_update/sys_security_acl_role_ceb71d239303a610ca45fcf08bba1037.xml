@@ -41,7 +41,7 @@
         <update_guid_history>1cc12d2f0c03a6107d7caa21c03a2c11:428928418</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_1801001_event_ma_budget.snc_internal">58c12d2f9303a610ca45fcf08bba1012</sys_audit_delete>
+        <sys_audit_delete display_value="">58c12d2f9303a610ca45fcf08bba1012</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-05 04:04:11</sys_created_on>

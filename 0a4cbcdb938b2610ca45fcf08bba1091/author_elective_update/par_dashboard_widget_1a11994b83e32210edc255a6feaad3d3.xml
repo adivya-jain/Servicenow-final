@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">da11994b83e32210edc255a6feaad3a7</canvas>
+        <component display_value="Rich text">2d56f06d55f46bbd4e79b5e624beb940</component>
+        <component_props>{"html":"&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 14pt;\"&gt;Pending asset retirements&lt;/span&gt;&lt;/p&gt;"}</component_props>
+        <h>3</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-28 10:05:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1a11994b83e32210edc255a6feaad3d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
+        <sys_update_name>par_dashboard_widget_1a11994b83e32210edc255a6feaad3d3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-28 10:05:50</sys_updated_on>
+        <visualization/>
+        <w>16</w>
+        <widget_props/>
+        <x>32</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</application>
+        <file_path/>
+        <instance_id>bfbbcbaadbc1429802022a591396194b</instance_id>
+        <instance_name>dev249461</instance_name>
+        <name>par_dashboard_widget_1a11994b83e32210edc255a6feaad3d3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">da11994b83e32210edc255a6feaad3a7</canvas><component display_value="Rich text">2d56f06d55f46bbd4e79b5e624beb940</component><component_props>{"html":"&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 14pt;\"&gt;Pending asset retirements&lt;/span&gt;&lt;/p&gt;"}</component_props><h>3</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-28 10:05:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1a11994b83e32210edc255a6feaad3d3</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package><sys_policy/><sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope><sys_update_name>par_dashboard_widget_1a11994b83e32210edc255a6feaad3d3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-28 10:05:50</sys_updated_on><visualization/><w>16</w><widget_props/><x>32</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>1161476271</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>e57861c183ab6610edc255a6feaad38a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-28 10:05:50</sys_created_on>
+        <sys_id>9211994b83e32210edc255a6feaad3d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198f0240b090000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-28 10:05:50</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>1a11994be3e32210c7d5c4b109144ad4</update_guid>
+        <update_guid_history>1a11994be3e32210c7d5c4b109144ad4:1161476271</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">2611994b83e32210edc255a6feaad3f7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-28 10:05:51</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>9728f9697a534f69b5bc3645e86856b9</sys_id>
+        <sys_metadata>1a11994b83e32210edc255a6feaad3d3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
+        <sys_scope_delete display_value="">5eed0badb25148eda7f538be0ba867d1</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_1a11994b83e32210edc255a6feaad3d3</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_1a11994b83e32210edc255a6feaad3d3">9211994b83e32210edc255a6feaad3d5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-28 10:05:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

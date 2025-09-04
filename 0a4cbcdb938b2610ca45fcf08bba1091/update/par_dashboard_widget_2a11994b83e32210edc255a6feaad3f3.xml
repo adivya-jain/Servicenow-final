@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">da11994b83e32210edc255a6feaad3a7</canvas>
+        <component display_value="Rich text">2d56f06d55f46bbd4e79b5e624beb940</component>
+        <component_props>{"html":"&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"font-size: 14pt; background-color: rgb(236, 240, 241); color: rgb(132, 63, 161);\"&gt;Pending asset retirements&lt;/span&gt;&lt;/p&gt;","showHeader":false,"showBorder":false,"bareBorder":false}</component_props>
+        <h>3</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-28 10:05:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2a11994b83e32210edc255a6feaad3f3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
+        <sys_update_name>par_dashboard_widget_2a11994b83e32210edc255a6feaad3f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-28 15:15:24</sys_updated_on>
+        <visualization/>
+        <w>16</w>
+        <widget_props/>
+        <x>32</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>

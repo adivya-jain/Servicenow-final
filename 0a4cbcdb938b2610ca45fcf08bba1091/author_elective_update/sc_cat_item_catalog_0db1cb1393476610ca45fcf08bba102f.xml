@@ -41,7 +41,7 @@
         <update_guid_history>0db1cb1322476610aaacf973bd85d732:-1069433137</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Service Catalog.Create an Event">b208356b9383a610ca45fcf08bba103d</sys_audit_delete>
+        <sys_audit_delete display_value="">b208356b9383a610ca45fcf08bba103d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-05 05:41:35</sys_created_on>

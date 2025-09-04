@@ -11,6 +11,7 @@
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
+        <default_digest>false</default_digest>
         <default_interval/>
         <description/>
         <digest_from/>
@@ -23,6 +24,7 @@
         <digest_subject/>
         <digest_template/>
         <digest_text/>
+        <digest_type/>
         <digestable>false</digestable>
         <enable_dynamic_translation>false</enable_dynamic_translation>
         <event_name>activate.life.cycle.migration</event_name>
@@ -47,7 +49,7 @@
         <order>100</order>
         <push_message_only>false</push_message_only>
         <recipient_fields>assigned_to.email,x_assigned_planner.email</recipient_fields>
-        <recipient_groups name="Event Managers">ac6fb01393cb2610ca45fcf08bba10c5</recipient_groups>
+        <recipient_groups>ac6fb01393cb2610ca45fcf08bba10c5</recipient_groups>
         <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>

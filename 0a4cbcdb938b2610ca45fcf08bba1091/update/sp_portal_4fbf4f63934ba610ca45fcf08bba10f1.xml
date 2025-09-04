@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
     <sp_portal action="INSERT_OR_UPDATE">
+        <alternate_portal/>
+        <communication_channels/>
         <css_variables/>
         <dark_theme/>
         <default>false</default>
+        <embeddable_macroponents/>
         <enable_ais>false</enable_ais>
         <enable_certificate_based_authentication>false</enable_certificate_based_authentication>
+        <enable_embeddables>false</enable_embeddables>
         <enable_favorites>false</enable_favorites>
         <hide_portal_name>false</hide_portal_name>
         <homepage display_value="emp_home">84701fa3934ba610ca45fcf08bba10e4</homepage>
         <icon/>
+        <inactive>false</inactive>
         <kb_knowledge_base/>
         <kb_knowledge_page/>
         <login_page/>
         <logo/>
+        <logo_alt_text/>
         <notfound_page/>
         <quick_start_config/>
         <rtl_enabled>false</rtl_enabled>

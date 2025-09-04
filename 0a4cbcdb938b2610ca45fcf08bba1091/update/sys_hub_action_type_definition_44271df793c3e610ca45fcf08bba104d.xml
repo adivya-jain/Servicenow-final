@@ -20,6 +20,7 @@
         <label_cache>[{"name":"{{action.budget_id}}","label":"action➛budget_id","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[d4553cfa-02c7-4e7a-87d9-f46d480912b5].remaining_amount}}","label":"step➛Script step➛remaining_amount","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"50b8894b-c062-479e-83bb-c72aa43ce622"}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
+        <master_snapshot_digest/>
         <name>CalculateRemainingBudget</name>
         <natlang/>
         <outputs/>
@@ -170,18 +171,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=9567ddf793c3e610ca45fcf08bba1062"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>9567ddf793c3e610ca45fcf08bba1062</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-08-05 21:57:25</sys_created_on>
-        <sys_id>d967153b93c3e610ca45fcf08bba1096</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-05 21:57:25</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>budget_id</field>
         <id>9567ddf793c3e610ca45fcf08bba1062</id>
         <sys_created_by>admin</sys_created_by>
@@ -192,18 +181,6 @@
         <sys_updated_on>2025-08-05 21:57:25</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_9567ddf793c3e610ca45fcf08bba1062</table>
         <value>{{action.budget_id}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>9567ddf793c3e610ca45fcf08bba1062</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-08-05 21:57:25</sys_created_on>
-        <sys_id>9d67153b93c3e610ca45fcf08bba1096</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-05 21:57:25</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_9567ddf793c3e610ca45fcf08bba1062^id=9567ddf793c3e610ca45fcf08bba1062"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=9567ddf793c3e610ca45fcf08bba1062"/>
@@ -377,7 +354,6 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=9567ddf793c3e610ca45fcf08bba1062"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_9567ddf793c3e610ca45fcf08bba1062^sys_idNOT IN1567153b93c3e610ca45fcf08bba1093"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>remaining_amount</element>
         <help/>
@@ -391,11 +367,11 @@
         <sys_created_on>2025-08-05 21:57:25</sys_created_on>
         <sys_id>1567153b93c3e610ca45fcf08bba1093</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>remaining_amount</sys_name>
         <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
         <sys_policy/>
         <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_9567ddf793c3e610ca45fcf08bba1062_remaining_amount_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-08-05 21:57:25</sys_updated_on>
         <url/>
@@ -760,7 +736,6 @@
         <sys_updated_on>2025-08-05 21:57:25</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=6167153b93c3e610ca45fcf08bba10c1"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_44271df793c3e610ca45fcf08bba104d^sys_idNOT IN5967ddf793c3e610ca45fcf08bba1060"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>budget_id</element>
         <help/>
@@ -774,18 +749,17 @@
         <sys_created_on>2025-08-05 21:57:25</sys_created_on>
         <sys_id>5967ddf793c3e610ca45fcf08bba1060</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>budget_id</sys_name>
         <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
         <sys_policy/>
         <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_44271df793c3e610ca45fcf08bba104d_budget_id_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-08-05 21:57:25</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_44271df793c3e610ca45fcf08bba104d"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_44271df793c3e610ca45fcf08bba104d^sys_idNOT IN5167153b93c3e610ca45fcf08bba109e,5967153b93c3e610ca45fcf08bba10bc,e177953b93c3e610ca45fcf08bba1044"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__action_status__</element>
         <help/>
@@ -799,11 +773,11 @@
         <sys_created_on>2025-08-05 21:57:25</sys_created_on>
         <sys_id>5167153b93c3e610ca45fcf08bba109e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
         <sys_policy/>
         <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_44271df793c3e610ca45fcf08bba104d___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-08-05 21:57:25</sys_updated_on>
         <url/>
@@ -822,11 +796,11 @@
         <sys_created_on>2025-08-05 21:57:25</sys_created_on>
         <sys_id>5967153b93c3e610ca45fcf08bba10bc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
         <sys_policy/>
         <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_44271df793c3e610ca45fcf08bba104d___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-08-05 21:57:25</sys_updated_on>
         <url/>
@@ -845,11 +819,11 @@
         <sys_created_on>2025-08-05 21:57:42</sys_created_on>
         <sys_id>e177953b93c3e610ca45fcf08bba1044</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>remaining_amount</sys_name>
         <sys_package display_value="Event Management &amp;amp; Planning System" source="x_1801001_event_ma">0a4cbcdb938b2610ca45fcf08bba1091</sys_package>
         <sys_policy/>
         <sys_scope display_value="Event Management &amp;amp; Planning System">0a4cbcdb938b2610ca45fcf08bba1091</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_44271df793c3e610ca45fcf08bba104d_remaining_amount_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-08-05 21:57:42</sys_updated_on>
         <url/>
